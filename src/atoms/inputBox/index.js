@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from "react";
+import { Input } from "semantic-ui-react";
 
-class InputBox extends Component {
-    render() { 
-        return (  );
-    }
-}
- 
+const InputBox = ({ placeholder }) => {
+  return <Input placeholder={placeholder} />;
+};
+
 export default InputBox;
